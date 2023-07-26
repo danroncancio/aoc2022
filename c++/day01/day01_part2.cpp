@@ -6,7 +6,7 @@
 #include <vector>
 
 int main() {
-    std::ifstream file_in("./puzzle_input.txt");
+    std::ifstream file_in("./puzzle_input");
     std::string token;
     int acc = 0;
     int total = 0;
